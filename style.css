@@ -12,6 +12,7 @@ body{
     width: 60px;
     background-color: black;
     color: white;
+    
 }
 
 .btn{
@@ -32,4 +33,5 @@ h1{
     border: 2px solid black;
     margin-left: 35px;
     margin-right: 35px;
+    background-color: brown;
 }
