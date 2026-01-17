@@ -32,16 +32,15 @@ function Stopwatch(){
     }
 
     return(
-        <>
+        <div className="watch">
          <h1>STOP WATCH: {count}</h1>
-         <button onClick={Start}>Start</button>
-         <br></br>
-         <br></br>
-         <button  onClick={Stop}>Stop</button>
-         <br></br>
-         <br></br>
-         <button onClick={Reset}>Reset</button>
-         </>
+         <div className="btn">
+         <button className="bt" onClick={Start}>Start</button>
+         <button className="bt" onClick={Stop}>Stop</button>
+         <button className="bt" onClick={Reset}>Reset</button>
+         </div>
+         </div>
+         
     )
 }
 
